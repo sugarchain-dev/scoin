@@ -1,12 +1,12 @@
 {
-  "name": "bcoin",
+  "name": "scoin",
   "version": "1.0.0-beta.15",
-  "description": "Bitcoin bike-shed",
+  "description": "Sugar bike-shed",
   "license": "MIT",
-  "repository": "git://github.com/bcoin-org/bcoin.git",
-  "homepage": "https://github.com/bcoin-org/bcoin",
+  "repository": "git://github.com/sugarchain-dev/scoin.git",
+  "homepage": "https://github.com/sugarchain-dev/scoin",
   "bugs": {
-    "url": "https://github.com/bcoin-org/bcoin/issues"
+    "url": "https://github.com/sugarchain-dev/scoin/issues"
   },
   "author": "Fedor Indutny <fedor@indutny.com>",
   "contributors": [
@@ -14,8 +14,8 @@
     "Alex Sherbuck <alex@bitpay.com>"
   ],
   "keywords": [
-    "bcoin",
-    "bitcoin",
+    "scoin",
+    "sugarchain",
     "blockchain",
     "cryptocurrency",
     "wallet"
@@ -28,6 +28,7 @@
     "elliptic": "6.4.0",
     "mongoose": "^4.11.9",
     "n64": "0.0.18",
+    "sugarchain-yespower": "https://github.com/sugarchain-dev/sugar-yespower-python3.git",
     "bcoin-mongo-models": "https://github.com/bitpay/bcoin-mongo-models"
   },
   "optionalDependencies": {
@@ -56,10 +57,10 @@
   },
   "main": "./lib/bcoin.js",
   "bin": {
-    "bcoin": "./bin/bcoin",
-    "bcoin-cli": "./bin/cli",
-    "bcoin-node": "./bin/node",
-    "bcoin-spvnode": "./bin/spvnode"
+    "scoin": "./bin/bcoin",
+    "scoin-cli": "./bin/cli",
+    "scoin-node": "./bin/node",
+    "scoin-spvnode": "./bin/spvnode"
   },
   "scripts": {
     "mongo": "node mongo.js",
